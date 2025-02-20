@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', 'Lucida Console', monospace;
+    background-color: navy;
+    font-size: xx-large;
+
+}
+
+
+h1 {
+    color: #fcfce1;
+    text-align: center;
+    line-height: 2;
+    text-shadow: 4px 4px black;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.simon-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.block {
+    outline: none;
+    border-radius: 50px;
+    border: 6px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 20px
+}
+
+.green {
+    background-color: #64dd16;
+}
+
+.red {
+    background-color: #f11414;
+}
+
+.yellow {
+    background-color: #ffe74a;
+}
+
+.blue {
+    background-color: #368ccc;
+}
